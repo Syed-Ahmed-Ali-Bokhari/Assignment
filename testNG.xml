@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+    <test name="APITests">
+        <classes>
+            <class name="org.assignment.APITests">
+                <methods>
+                    <include name="testGetRequest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
