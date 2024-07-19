@@ -13,7 +13,8 @@ public class RestAssuredConfig {
         return RestAssured
                 .given()
                 .header("Content-Type", "application/json")
-                .header("Authorization", "Bearer sk_live_o1any5GIsVmYiU7wdZJ2gPjE")
+                // Remove the hard-coded secret
+                .header("Authorization", "Bearer YOUR_API_KEY") // Replace with a placeholder or use environment variables
                 .contentType("application/json");
     }
 }
