@@ -42,12 +42,26 @@
       <scope>test</scope>
     </dependency>
 
+
+    <!-- Extent Reports -->
+    <dependency>
+      <groupId>com.aventstack</groupId>
+      <artifactId>extentreports</artifactId>
+      <version>5.0.9</version>
+    </dependency>
     <!-- TestNG dependency for testing -->
     <dependency>
       <groupId>org.testng</groupId>
       <artifactId>testng</artifactId>
       <version>7.4.0</version>
       <scope>test</scope>
+    </dependency>
+
+    <!-- Extent Reports -->
+    <dependency>
+      <groupId>com.aventstack</groupId>
+      <artifactId>extentreports</artifactId>
+      <version>5.0.9</version>
     </dependency>
 
     <!-- JSON parsing library -->
